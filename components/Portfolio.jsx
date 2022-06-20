@@ -37,6 +37,7 @@ const Portfolio = () => {
                 <a
                   href="https://startuplanes.com"
                   target="_blank"
+rel="noreferrer" 
                   className="text-highlight"
                 >
                   StartupLanes
@@ -52,10 +53,10 @@ const Portfolio = () => {
                 <p className="text-sm text-primary">AWS</p>
               </div>
               <div className="flex gap-2 mt-3">
-                {/* <a href="https://github.com/creativesid" target="_blank">
+                {/* <a href="https://github.com/creativesid" target="_blank" rel="noreferrer" >
                   <BsGithub className="text-primary text-lg hover:text-highlight" />
                 </a> */}
-                <a target="_blank" className="flex gap-1 items-center">
+                <a target="_blank" rel="noreferrer"  className="flex gap-1 items-center">
                   <BiLinkExternal className="text-primary text-lg hover:text-highlight" />{" "}
                   Coming Soon
                 </a>
@@ -97,12 +98,14 @@ const Portfolio = () => {
                 <a
                   href="https://github.com/creativesid/react-firebase-shop-ap"
                   target="_blank"
+rel="noreferrer"
                 >
                   <BsGithub className="text-primary text-lg hover:text-highlight" />
                 </a>
                 <a
                   href="https://react-firebase-shop-app.vercel.app/"
                   target="_blank"
+rel="noreferrer"
                 >
                   <BiLinkExternal className="text-primary text-lg hover:text-highlight" />
                 </a>
@@ -147,7 +150,7 @@ const Portfolio = () => {
                 >
                   <BsGithub className="text-primary text-lg hover:text-highlight" />
                 </a>
-                <a className="flex items-center g-1" target="_blank">
+                <a className="flex items-center g-1" target="_blank" rel="noreferrer">
                   <BiLinkExternal className="text-primary text-lg hover:text-highlight" />
                   Coming Soon
                 </a>
@@ -176,7 +179,7 @@ const Portfolio = () => {
               <p>
                 Wow Food is a ecommerce platform Restaurants built with PHP and
                 Mysql. It is a Fullstack Web Application. It uses PHP Mailer for
-                verifying user's email addresses. It also have checkout feature.
+                verifying user&apos;s email addresses. It also have checkout feature.
               </p>
               <div className="flex gap-2 mt-3">
                 <p className="text-sm text-primary">PHP</p>
@@ -187,10 +190,11 @@ const Portfolio = () => {
                 <a
                   href="https://github.com/creativesid/food-heaven"
                   target="_blank"
+rel="noreferrer"
                 >
                   <BsGithub className="text-primary text-lg hover:text-highlight" />
                 </a>
-                <a className="flex items-center gap-1" target="_blank">
+                <a className="flex items-center gap-1" target="_blank" rel="noreferrer">
                   <BiLinkExternal className="text-primary text-lg hover:text-highlight" />
                   Coming Soon
                 </a>
