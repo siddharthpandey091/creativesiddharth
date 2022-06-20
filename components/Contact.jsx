@@ -67,6 +67,7 @@ const Contact = () => {
               className="p-4 bg-cardColor rounded-md hover:bg-highlight"
               href="https://www.linkedin.com/in/siddharthpandeydev/"
               target="_blank"
+rel="noreferrer" 
             >
               <BsLinkedin className="text-primary" />
             </a>
@@ -74,6 +75,7 @@ const Contact = () => {
               className="p-4 bg-cardColor rounded-md hover:bg-highlight"
               href="https://www.instagram.com/creative_siddharth/?hl=en"
               target="_blank"
+rel="noreferrer" 
             >
               <BsInstagram className="text-primary" />
             </a>
@@ -81,6 +83,7 @@ const Contact = () => {
               className="p-4 bg-cardColor rounded-md hover:bg-highlight"
               href="https://github.com/creativesid"
               target="_blank"
+rel="noreferrer" 
             >
               <BsGithub className="text-primary" />
             </a>
@@ -88,6 +91,7 @@ const Contact = () => {
               className="p-4 bg-cardColor rounded-md hover:bg-highlight"
               href="https://codepen.io/creativesiddharth"
               target="_blank"
+rel="noreferrer" 
             >
               <FiCodepen className="text-primary" />
             </a>
@@ -96,7 +100,7 @@ const Contact = () => {
         <div className="md:w-[50%] w-full">
           <form ref={form} onSubmit={sendEmail}>
             <div className="mb-10">
-              <label>What's your name ?</label> <br />
+              <label>What&lsquo;`s your name ?</label> <br />
               <input
                 name="user_name"
                 placeholder="Siddharth Pandey"
