@@ -113,7 +113,7 @@ rel="noreferrer"
               ) : null}
             </div>
             <div className="mb-10">
-              <label>What's your email address ?</label> <br />
+              <label>What&apos;s your email address ?</label> <br />
               <input
                 name="user_email"
                 placeholder="Siddharth@gmail.com"
