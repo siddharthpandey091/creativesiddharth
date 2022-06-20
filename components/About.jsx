@@ -14,7 +14,7 @@ const About = () => {
           <div>
             <div>
               <p className="md:text-lg text-[17px]">
-                Hello! my name is Siddharth Pandey. I know just a name doesn't
+                Hello! my name is Siddharth Pandey. I know just a name doesn&lsquo;t
                 make any sense. So Let me introduce myself, i am a fullstack web
                 developer based in Uttar Pradesh India, who love to design and
                 developer beautiful web applications.
@@ -34,6 +34,7 @@ const About = () => {
                   href="https://www.instagram.com/creative_siddharth/?hl=en"
                   className="text-highlight"
                   target="_blank"
+rel="noreferrer"
                 >
                   @creative_siddharth
                 </a>
