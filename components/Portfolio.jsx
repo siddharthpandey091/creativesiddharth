@@ -147,6 +147,7 @@ rel="noreferrer"
                 <a
                   href="https://github.com/creativesid/Laravel-Job-Listing-App"
                   target="_blank"
+rel="noreferrer"
                 >
                   <BsGithub className="text-primary text-lg hover:text-highlight" />
                 </a>
