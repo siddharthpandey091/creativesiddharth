@@ -43,12 +43,13 @@ const Hero = () => {
             transition={{ delay: 0.7 }}
             className="w-full md:w-[60%] text-lg text-primary"
           >
-            I'm a fullstack web developer with a passion for great design and
-            user experiences. Currently i'm focused on building digital products
+            I&lsquo;m a fullstack web developer with a passion for great design and
+            user experiences. Currently i&lsquo;m focused on building digital products
             at{" "}
             <a
               href="https://startuplanes.com"
               target="_blank"
+rel="noreferrer" 
               className="text-highlight"
             >
               StartupLanes
@@ -68,19 +69,21 @@ const Hero = () => {
             <a
               href="https://www.linkedin.com/in/siddharthpandeydev/"
               target="_blank"
+rel="noreferrer" 
             >
               <BsLinkedin className="text-primary hover:text-highlight" />
             </a>
             <a
               href="https://www.instagram.com/creative_siddharth/?hl=en"
               target="_blank"
+rel="noreferrer" 
             >
               <BsInstagram className="text-primary hover:text-highlight" />
             </a>
             <a href="https://github.com/creativesid">
               <BsGithub className="text-primary hover:text-highlight" />
             </a>
-            <a href="https://codepen.io/creativesiddharth" target="_blank">
+            <a href="https://codepen.io/creativesiddharth" target="_blank" rel="noreferrer" >
               <FiCodepen className="text-primary hover:text-highlight" />
             </a>
           </div>
