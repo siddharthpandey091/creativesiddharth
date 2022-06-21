@@ -11,7 +11,7 @@ const About = () => {
 
       <div className="w-full py-5">
         <div className="w-full flex flex-col-reverse md:flex-row md:gap-24 gap-10  md:items-start items-center">
-          <div>
+          <div className="md:mt-0 mt-4">
             <div>
               <p className="md:text-lg text-[17px]">
                 Hello! my name is Siddharth Pandey. I know just a name doesn&lsquo;t
@@ -71,7 +71,7 @@ rel="noreferrer"
               </ul>
             </div>
           </div>
-          <div className="md:mt-0 mt-4">
+          <div>
             <img
               src="/creativesiddharth.jpg"
               className="md:w-[900px] w-96 rounded-md border border-borderColor"
