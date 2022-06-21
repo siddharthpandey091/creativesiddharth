@@ -71,7 +71,7 @@ rel="noreferrer"
               </ul>
             </div>
           </div>
-          <div>
+          <div className="md:mt-0 mt-4">
             <img
               src="/creativesiddharth.jpg"
               className="md:w-[900px] w-96 rounded-md border border-borderColor"
