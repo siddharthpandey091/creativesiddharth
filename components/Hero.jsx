@@ -66,7 +66,7 @@ rel="noreferrer"
         >
           <div className="w-full flex items-center">
             <p>Connect with me on :</p>
-            <div className="px-3">
+            <div className="pl-3">
               <a
               href="https://www.linkedin.com/in/siddharthpandeydev/"
               target="_blank"
