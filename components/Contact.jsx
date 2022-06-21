@@ -47,7 +47,7 @@ const Contact = () => {
         <p className="text-xl font-semibold">&#60;Contact &#47;&#62;</p>
         <div className="md:w-[60%] w-[40%] h-[1px] bg-borderColor opacity-30"></div>
       </div>
-      <div className="mt-4 w-full flex md:flex-row flex-col justify-between md:space-y-32 space-x-20">
+      <div className="mt-4 w-full flex md:flex-row flex-col justify-between md:gap-32 gap-20">
         <div className="md:w-[50%] w-full">
           <h1 className="text-lg text-primary font-semibold">Get In Touch</h1>
           <p className="mb-5">
@@ -97,7 +97,7 @@ rel="noreferrer"
             </a>
           </div>
         </div>
-        <div className="md:w-[50%] w-full">
+        <div className="md:w-[50%] w-full md:mt-0 mt-7">
           <form ref={form} onSubmit={sendEmail}>
             <div className="mb-10">
               <label>What&lsquo;`s your name ?</label> <br />
