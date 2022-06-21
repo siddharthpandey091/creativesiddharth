@@ -33,7 +33,7 @@ const Skills = () => {
 
       <div className="w-full py-5">
         <h1 className="text-lg">Frontend Technologies</h1>
-        <div className="mt-2 mb-5 grid lg:grid-cols-7 md:grid-cols-5 sm:grid-cols-3 grid-cols-2  space-x-4">
+        <div className="mt-2 mb-5 grid lg:grid-cols-7 md:grid-cols-5 sm:grid-cols-3 grid-cols-2  gap-4">
           <div className="flex  space-x-2 items-center rounded-lg p-2 bg-cardColor shadow-md cursor-pointer  hover:bg-highlight hover:text-bgColor">
             <DiHtml5 className="text-3xl" />
             <p className="text-sm font-semibold">HTML</p>
@@ -61,7 +61,7 @@ const Skills = () => {
         </div>
 
         <h1 className="text-lg">Backend Technologies</h1>
-        <div className="mt-2 mb-5 grid lg:grid-cols-7 md:grid-cols-5 sm:grid-cols-3 grid-cols-2  space-x-4">
+        <div className="mt-2 mb-5 grid lg:grid-cols-7 md:grid-cols-5 sm:grid-cols-3 grid-cols-2  gap-4">
           <div className="flex  space-x-2 items-center rounded-lg p-2 bg-cardColor shadow-md cursor-pointer  hover:bg-highlight hover:text-bgColor">
             <DiPhp className="text-3xl" />
             <p className="text-sm font-semibold">PHP</p>
@@ -89,7 +89,7 @@ const Skills = () => {
         </div>
 
         <h1 className="text-lg">Other Skills</h1>
-        <div className="mt-2 mb-5 grid lg:grid-cols-7 md:grid-cols-5 sm:grid-cols-3 grid-cols-2  space-x-4">
+        <div className="mt-2 mb-5 grid lg:grid-cols-7 md:grid-cols-5 sm:grid-cols-3 grid-cols-2  gap-4">
           <div className="flex  space-x-2 items-center rounded-lg p-2 bg-cardColor shadow-md cursor-pointer  hover:bg-highlight hover:text-bgColor">
             <DiLinux className="text-3xl" />
             <p className="text-sm font-semibold">Linux</p>
@@ -113,7 +113,7 @@ const Skills = () => {
         </div>
 
         <h1 className="text-lg">Currently Learning</h1>
-        <div className="mt-2 mb-5 grid lg:grid-cols-7 md:grid-cols-5 sm:grid-cols-3 grid-cols-2  space-x-4">
+        <div className="mt-2 mb-5 grid lg:grid-cols-7 md:grid-cols-5 sm:grid-cols-3 grid-cols-2  gap-4">
           <div className="flex  space-x-2 items-center rounded-lg p-2 bg-cardColor shadow-md cursor-pointer  hover:bg-highlight hover:text-bgColor">
             <SiFlutter className="text-2xl" />
             <p className="text-sm font-semibold">Flutter</p>
