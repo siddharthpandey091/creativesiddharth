@@ -13,7 +13,7 @@ const Portfolio = () => {
       </div>
 
       <div className="mt-4 p-4 w-full flex lg:flex-row flex-col lg:items-start items-center lg:justify-center lg:gap-32 gap-10">
-        <div className="p-4 sm:w-[500px] w-[300px] sm:h-[650px] h-[640px] flex flex-col  space-x-10 bg-cardColor">
+        <div className="p-4 sm:w-[500px] w-[300px] sm:h-[650px] h-[640px] flex flex-col  space-y-10 bg-cardColor">
           <FadeInWhenVisible>
             <div
               className="relative sm:h-[370px] h-[300px]"
@@ -65,7 +65,7 @@ rel="noreferrer"
           </FadeInWhenVisible>
         </div>
 
-        <div className="lg:mt-96 mt-0 p-4 sm:w-[500px] w-[300px] sm:h-[650px] h-[640px] flex flex-col space-x-10 bg-cardColor shadow-lg">
+        <div className="lg:mt-96 mt-0 p-4 sm:w-[500px] w-[300px] sm:h-[650px] h-[640px] flex flex-col space-y-10 bg-cardColor shadow-lg">
           <FadeInWhenVisible>
             <div
               className="relative sm:h-[370px] h-[300px]"
@@ -116,7 +116,7 @@ rel="noreferrer"
       </div>
 
       <div className="lg:-mt-56 mt-4 p-4 w-full flex lg:flex-row flex-col lg:items-start items-center lg:justify-center lg:gap-32 gap-10">
-        <div className="p-4 sm:w-[500px] w-[300px] sm:h-[650px] h-[640px] flex flex-col space-x-10 bg-cardColor">
+        <div className="p-4 sm:w-[500px] w-[300px] sm:h-[650px] h-[640px] flex flex-col space-y-10 bg-cardColor">
           <FadeInWhenVisible>
             <div
               className="relative sm:h-[370px] h-[300px]"
