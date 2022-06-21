@@ -64,7 +64,7 @@ rel="noreferrer"
           transition={{ delay: 0.7 }}
           className="mt-7"
         >
-          <div className="w-full flex gap-5 items-center">
+          <div className="w-full flex space-y-2 items-center">
             <p>Connect with me on :</p>
             <a
               href="https://www.linkedin.com/in/siddharthpandeydev/"
