@@ -64,9 +64,8 @@ rel="noreferrer"
           transition={{ delay: 0.7 }}
           className="mt-7"
         >
-          <div className="w-full flex items-center">
+          <div className="w-full flex gap-2 items-center">
             <p>Connect with me on :</p>
-            <div className="pl-3">
               <a
               href="https://www.linkedin.com/in/siddharthpandeydev/"
               target="_blank"
@@ -87,7 +86,6 @@ rel="noreferrer"
             <a href="https://codepen.io/creativesiddharth" target="_blank" rel="noreferrer" >
               <FiCodepen className="text-primary hover:text-highlight" />
             </a>
-            </div>
           </div>
           <div className="border-2 border-highlight rounded-[5px] py-2 w-40 text-center cursor-pointer mt-5 hover:bg-highlight hover:text-bgColor transition-all duration-75">
             <Link href="/#portfolio">
