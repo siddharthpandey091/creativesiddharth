@@ -160,7 +160,7 @@ rel="noreferrer"
           </FadeInWhenVisible>
         </div>
 
-        <div className="lg:mt-96 lg:mt-0 mt-10 p-4 sm:w-[500px] w-[300px] sm:h-[650px] h-[640px] flex flex-col space-x-10 bg-cardColor">
+        <div className="lg:mt-96 lg:mt-0 mt-10 p-4 sm:w-[500px] w-[300px] sm:h-[650px] h-[640px] flex flex-col space-y-10 bg-cardColor">
           <FadeInWhenVisible>
             <div
               className="relative sm:h-[370px] h-[300px]"
