@@ -43,11 +43,11 @@ const Contact = () => {
 
   return (
     <div className="w-full h-auto flex flex-col relative mb-20">
-      <div className="flex gap-4 items-center">
+      <div className="flex space-x-4 items-center">
         <p className="text-xl font-semibold">&#60;Contact &#47;&#62;</p>
         <div className="md:w-[60%] w-[40%] h-[1px] bg-borderColor opacity-30"></div>
       </div>
-      <div className="mt-4 w-full flex md:flex-row flex-col justify-between md:gap-32 gap-20">
+      <div className="mt-4 w-full flex md:flex-row flex-col justify-between md:space-x-32 space-x-20">
         <div className="md:w-[50%] w-full">
           <h1 className="text-lg text-primary font-semibold">Get In Touch</h1>
           <p className="mb-5">
@@ -62,7 +62,7 @@ const Contact = () => {
             regardless of the subject.
           </p>
           <p className="mb-2">Or connect with me on social networks:</p>
-          <div className="flex gap-2 items-center">
+          <div className="flex space-x-2 items-center">
             <a
               className="p-4 bg-cardColor rounded-md hover:bg-highlight"
               href="https://www.linkedin.com/in/siddharthpandeydev/"
