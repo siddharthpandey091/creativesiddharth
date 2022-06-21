@@ -100,7 +100,7 @@ rel="noreferrer"
         <div className="md:w-[50%] w-full md:mt-0 mt-7">
           <form ref={form} onSubmit={sendEmail}>
             <div className="mb-10">
-              <label>What&lsquo;`s your name ?</label> <br />
+              <label>What&lsquo;s your name ?</label> <br />
               <input
                 name="user_name"
                 placeholder="Siddharth Pandey"
