@@ -4,13 +4,13 @@ import { motion } from "framer-motion";
 const About = () => {
   return (
     <div className="w-full h-auto flex flex-col relative mb-20">
-      <div className="flex gap-4 items-center">
+      <div className="flex space-x-4 items-center">
         <p className="text-xl font-semibold">&#60;About &#47;&#62;</p>
         <div className="md:w-[60%] w-[40%] h-[1px] bg-borderColor opacity-30"></div>
       </div>
 
       <div className="w-full py-5">
-        <div className="w-full flex flex-col-reverse md:flex-row md:gap-24 gap-10 md:items-start items-center">
+        <div className="w-full flex flex-col-reverse md:flex-row md:space-x-24 space-x-10 md:items-start items-center">
           <div>
             <div>
               <p className="md:text-lg text-[17px]">
