@@ -7,13 +7,13 @@ import FadeInWhenVisible from "./FadeInWhenVisible";
 const Portfolio = () => {
   return (
     <div className="w-full h-auto flex flex-col relative mb-20 ">
-      <div className="flex gap-4 items-center">
+      <div className="flex space-x-4 items-center">
         <p className="text-xl font-semibold">&#60;Portfolio &#47;&#62;</p>
         <div className="md:w-[60%] w-[40%] h-[1px] bg-borderColor opacity-30"></div>
       </div>
 
       <div className="mt-4 p-4 w-full flex lg:flex-row flex-col lg:items-start items-center lg:justify-center lg:gap-32 gap-10">
-        <div className="p-4 sm:w-[500px] w-[300px] sm:h-[650px] h-[640px] flex flex-col  gap-10 bg-cardColor">
+        <div className="p-4 sm:w-[500px] w-[300px] sm:h-[650px] h-[640px] flex flex-col  space-x-10 bg-cardColor">
           <FadeInWhenVisible>
             <div
               className="relative sm:h-[370px] h-[300px]"
@@ -46,17 +46,17 @@ rel="noreferrer"
                 is being developed on React (frontend), and Laravel and Mysql
                 (backend).
               </p>
-              <div className="flex gap-2 mt-3">
+              <div className="flex space-x-2 mt-3">
                 <p className="text-sm text-primary">React</p>
                 <p className="text-sm text-primary">Laravel</p>
                 <p className="text-sm text-primary">MySQL</p>
                 <p className="text-sm text-primary">AWS</p>
               </div>
-              <div className="flex gap-2 mt-3">
+              <div className="flex space-x-2 mt-3">
                 {/* <a href="https://github.com/creativesid" target="_blank" rel="noreferrer" >
                   <BsGithub className="text-primary text-lg hover:text-highlight" />
                 </a> */}
-                <a target="_blank" rel="noreferrer"  className="flex gap-1 items-center">
+                <a target="_blank" rel="noreferrer"  className="flex space-x-1 items-center">
                   <BiLinkExternal className="text-primary text-lg hover:text-highlight" />{" "}
                   Coming Soon
                 </a>
@@ -65,7 +65,7 @@ rel="noreferrer"
           </FadeInWhenVisible>
         </div>
 
-        <div className="lg:mt-96 mt-0 p-4 sm:w-[500px] w-[300px] sm:h-[650px] h-[640px] flex flex-col gap-10 bg-cardColor shadow-lg">
+        <div className="lg:mt-96 mt-0 p-4 sm:w-[500px] w-[300px] sm:h-[650px] h-[640px] flex flex-col space-x-10 bg-cardColor shadow-lg">
           <FadeInWhenVisible>
             <div
               className="relative sm:h-[370px] h-[300px]"
@@ -90,11 +90,11 @@ rel="noreferrer"
                 authentication. I have used React Context with Reducers to
                 create Global and Cart State.
               </p>
-              <div className="flex gap-2 mt-3">
+              <div className="flex space-x-2 mt-3">
                 <p className="text-sm text-primary">React</p>
                 <p className="text-sm text-primary">Firebase</p>
               </div>
-              <div className="flex gap-2 mt-3">
+              <div className="flex space-x-2 mt-3">
                 <a
                   href="https://github.com/creativesid/react-firebase-shop-ap"
                   target="_blank"
@@ -116,7 +116,7 @@ rel="noreferrer"
       </div>
 
       <div className="lg:-mt-56 mt-4 p-4 w-full flex lg:flex-row flex-col lg:items-start items-center lg:justify-center lg:gap-32 gap-10">
-        <div className="p-4 sm:w-[500px] w-[300px] sm:h-[650px] h-[640px] flex flex-col gap-10 bg-cardColor">
+        <div className="p-4 sm:w-[500px] w-[300px] sm:h-[650px] h-[640px] flex flex-col space-x-10 bg-cardColor">
           <FadeInWhenVisible>
             <div
               className="relative sm:h-[370px] h-[300px]"
@@ -139,11 +139,11 @@ rel="noreferrer"
                 requirements. This application is built on Laravel and MySQL
                 with Sanctum Authentication.
               </p>
-              <div className="flex gap-2 mt-3">
+              <div className="flex space-x-2 mt-3">
                 <p className="text-sm text-primary">Laravel</p>
                 <p className="text-sm text-primary">Mysql</p>
               </div>
-              <div className="flex gap-2 mt-3">
+              <div className="flex space-x-2 mt-3">
                 <a
                   href="https://github.com/creativesid/Laravel-Job-Listing-App"
                   target="_blank"
@@ -160,7 +160,7 @@ rel="noreferrer"
           </FadeInWhenVisible>
         </div>
 
-        <div className="lg:mt-96 mt-0 p-4 sm:w-[500px] w-[300px] sm:h-[650px] h-[640px] flex flex-col gap-10 bg-cardColor">
+        <div className="lg:mt-96 mt-0 p-4 sm:w-[500px] w-[300px] sm:h-[650px] h-[640px] flex flex-col space-x-10 bg-cardColor">
           <FadeInWhenVisible>
             <div
               className="relative sm:h-[370px] h-[300px]"
@@ -182,12 +182,12 @@ rel="noreferrer"
                 Mysql. It is a Fullstack Web Application. It uses PHP Mailer for
                 verifying user&apos;s email addresses. It also have checkout feature.
               </p>
-              <div className="flex gap-2 mt-3">
+              <div className="flex space-x-2 mt-3">
                 <p className="text-sm text-primary">PHP</p>
                 <p className="text-sm text-primary">MySQL</p>
                 <p className="text-sm text-primary">PHP Mailer</p>
               </div>
-              <div className="flex gap-2 mt-3">
+              <div className="flex space-x-2 mt-3">
                 <a
                   href="https://github.com/creativesid/food-heaven"
                   target="_blank"
@@ -195,7 +195,7 @@ rel="noreferrer"
                 >
                   <BsGithub className="text-primary text-lg hover:text-highlight" />
                 </a>
-                <a className="flex items-center gap-1" target="_blank" rel="noreferrer">
+                <a className="flex items-center space-x-1" target="_blank" rel="noreferrer">
                   <BiLinkExternal className="text-primary text-lg hover:text-highlight" />
                   Coming Soon
                 </a>
