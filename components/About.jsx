@@ -10,7 +10,7 @@ const About = () => {
       </div>
 
       <div className="w-full py-5">
-        <div className="w-full flex flex-col-reverse md:flex-row md:space-x-24 space-x-10 md:items-start items-center">
+        <div className="w-full flex flex-col-reverse md:flex-row md:space-x-24 space-y-10 md:items-start items-center">
           <div>
             <div>
               <p className="md:text-lg text-[17px]">
