@@ -15,10 +15,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Creative Siddharth - a fullstack developer</title>
         <meta charset="utf-8" />
-        <meta
-          name="google-site-verification"
-          content="_vHVlLTff6N69w5oKFBYyqM8yFIkBuX75yW92vhtKwk"
-        />
+        <meta name="google-site-verification" content="jcS2sDkMHbVRdnApx-WccbhoyoVZl20vT2SjlrxdM50" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="title"
