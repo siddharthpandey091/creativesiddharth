@@ -13,7 +13,8 @@ import {
   DiPhotoshop,
   DiPhp,
   DiReact,
-} from "react-icons/di";
+} from  "react-icons/di";
+import {TbBrandReactNative} from "react-icons/tb";
 import {
   SiExpress,
   SiFigma,
@@ -115,8 +116,8 @@ const Skills = () => {
         <h1 className="text-lg">Currently Learning</h1>
         <div className="mt-2 mb-5 grid lg:grid-cols-7 md:grid-cols-5 sm:grid-cols-3 grid-cols-2  gap-4">
           <div className="flex  space-x-2 items-center rounded-lg p-2 bg-cardColor shadow-md cursor-pointer  hover:bg-highlight hover:text-bgColor">
-            <SiFlutter className="text-2xl" />
-            <p className="text-sm font-semibold">Flutter</p>
+            <TbBrandReactNative className="text-2xl" />
+            <p className="text-sm font-semibold">ReactNative</p>
           </div>
           <div className="flex  space-x-2 items-center rounded-lg p-2 bg-cardColor shadow-md cursor-pointer  hover:bg-highlight hover:text-bgColor">
             <FaAws className="text-2xl" />
