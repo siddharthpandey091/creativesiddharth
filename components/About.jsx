@@ -62,7 +62,7 @@ rel="noreferrer"
                 <li className="mt-2">
                   <div>
                     <h1 className="md:text-lg text-[17px]">
-                      Engineering Dimploma in{" "}
+                      Engineering Diploma in{" "}
                       <a className="text-highlight">Computer Science</a>
                     </h1>
                     <p className="text-sm">2018 - 2021</p>
