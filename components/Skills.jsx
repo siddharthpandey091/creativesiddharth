@@ -13,8 +13,8 @@ import {
   DiPhotoshop,
   DiPhp,
   DiReact,
-} from  "react-icons/di";
-import {TbBrandReactNative} from "react-icons/tb";
+} from "react-icons/di";
+import { TbBrandReactNative } from "react-icons/tb";
 import {
   SiExpress,
   SiFigma,
@@ -75,7 +75,7 @@ const Skills = () => {
             <DiMysql className="text-3xl" />
             <p className="text-sm font-semibold">MySQL</p>
           </div>
-          <div className="flex  space-x-2 items-center rounded-lg p-2 bg-cardColor shadow-md cursor-pointer  hover:bg-highlight hover:text-bgColor">
+          {/* <div className="flex  space-x-2 items-center rounded-lg p-2 bg-cardColor shadow-md cursor-pointer  hover:bg-highlight hover:text-bgColor">
             <DiNodejsSmall className="text-3xl" />
             <p className="text-sm font-semibold">Node.JS</p>
           </div>
@@ -86,7 +86,7 @@ const Skills = () => {
           <div className="flex  space-x-2 items-center rounded-lg p-2 bg-cardColor shadow-md cursor-pointer  hover:bg-highlight hover:text-bgColor">
             <DiMongodb className="text32xl" />
             <p className="text-sm font-semibold">MongoDB</p>
-          </div>
+          </div> */}
         </div>
 
         <h1 className="text-lg">Other Skills</h1>
