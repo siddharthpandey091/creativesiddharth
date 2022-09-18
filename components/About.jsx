@@ -14,10 +14,10 @@ const About = () => {
           <div className="md:mt-0 mt-4">
             <div>
               <p className="md:text-lg text-[17px]">
-                Hello! my name is Siddharth Pandey. I know just a name doesn&lsquo;t
-                make any sense. So Let me introduce myself, i am a fullstack web
-                developer based in Uttar Pradesh India, who love to design and
-                developer beautiful web applications.
+                Hello! my name is Siddharth Pandey. I know just a name
+                doesn&lsquo;t make any sense. So Let me introduce myself, i am a
+                fullstack web developer based in Uttar Pradesh India, who love
+                to design and developer beautiful web applications.
               </p>
               <br />
               <p className="md:text-lg text-[17px]">
@@ -34,7 +34,7 @@ const About = () => {
                   href="https://www.instagram.com/creative_siddharth/?hl=en"
                   className="text-highlight"
                   target="_blank"
-rel="noreferrer"
+                  rel="noreferrer"
                 >
                   @creative_siddharth
                 </a>
@@ -50,8 +50,26 @@ rel="noreferrer"
                     <h1 className="md:text-lg text-[17px]">
                       Fullstack dev @{" "}
                       <a
+                        href="https://xoniertechnologies.com/"
+                        className="text-highlight"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Xonier Technologies
+                      </a>
+                    </h1>
+                    <p className="text-sm">Sep 2022 - Present</p>
+                  </div>
+                </li>
+                <li className="mt-2">
+                  <div>
+                    <h1 className="md:text-lg text-[17px]">
+                      Fullstack dev @{" "}
+                      <a
                         href="https://startuplanes.com"
                         className="text-highlight"
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         StartupLanes
                       </a>
