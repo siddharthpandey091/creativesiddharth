@@ -43,16 +43,16 @@ const Hero = () => {
             transition={{ delay: 0.7 }}
             className="w-full md:w-[60%] text-lg text-primary"
           >
-            I&lsquo;m a fullstack web developer with a passion for great design and
-            user experiences. Currently i&lsquo;m focused on building digital products
-            at{" "}
+            I&lsquo;m a fullstack web developer with a passion for great design
+            and user experiences. Currently i&lsquo;m focused on building
+            digital products at{" "}
             <a
-              href="https://startuplanes.com"
+              href="https://xoniertechnologies.com/"
               target="_blank"
-rel="noreferrer" 
+              rel="noreferrer"
               className="text-highlight"
             >
-              StartupLanes
+              Xonier Technologies
             </a>
             .
           </motion.p>
@@ -66,24 +66,28 @@ rel="noreferrer"
         >
           <div className="w-full flex space-x-2 items-center">
             <p>Connect with me on :</p>
-              <a
+            <a
               href="https://www.linkedin.com/in/siddharthpandeydev/"
               target="_blank"
-              rel="noreferrer" 
+              rel="noreferrer"
             >
               <BsLinkedin className="text-primary hover:text-highlight" />
             </a>
             <a
               href="https://www.instagram.com/creative_siddharth/?hl=en"
               target="_blank"
-              rel="noreferrer" 
+              rel="noreferrer"
             >
               <BsInstagram className="text-primary hover:text-highlight" />
             </a>
             <a href="https://github.com/creativesid">
               <BsGithub className="text-primary hover:text-highlight" />
             </a>
-            <a href="https://codepen.io/creativesiddharth" target="_blank" rel="noreferrer" >
+            <a
+              href="https://codepen.io/creativesiddharth"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FiCodepen className="text-primary hover:text-highlight" />
             </a>
           </div>
