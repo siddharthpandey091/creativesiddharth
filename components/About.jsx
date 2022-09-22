@@ -48,7 +48,7 @@ const About = () => {
                 <li className="mt-2">
                   <div>
                     <h1 className="md:text-lg text-[17px]">
-                      Fullstack dev @{" "}
+                      Fullstack Web dev @{" "}
                       <a
                         href="https://xoniertechnologies.com/"
                         className="text-highlight"
@@ -64,7 +64,7 @@ const About = () => {
                 <li className="mt-2">
                   <div>
                     <h1 className="md:text-lg text-[17px]">
-                      Fullstack dev @{" "}
+                      Fullstack Web dev @{" "}
                       <a
                         href="https://startuplanes.com"
                         className="text-highlight"
@@ -74,7 +74,7 @@ const About = () => {
                         StartupLanes
                       </a>
                     </h1>
-                    <p className="text-sm">Oct 2021 - Present</p>
+                    <p className="text-sm">Oct 2021 - Aug 2022</p>
                   </div>
                 </li>
                 <li className="mt-2">
