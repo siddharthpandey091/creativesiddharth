@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="top-0 z-50 lg:block hidden">
+      <div className="sticky top-0 z-50 lg:block hidden">
         <motion.div
           initial={{ opacity: 0, x: 100 }}
           animate={{ opacity: 1, x: 0 }}
@@ -64,7 +64,7 @@ const Header = () => {
         </motion.div>
       </div>
 
-      <div className="sticky top-0 z-50 lg:hidden block">
+      <div className="top-0 z-50 lg:hidden block">
         <div className="py-8 bg-bgColor flex justify-between ease-in-out">
           <div>
             <img src="" />
