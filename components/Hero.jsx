@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <div className="w-full sm:h-[90vh] h-[100vh] flex flex-col relative">
-      <div className="z-10 md:py-32 py-28">
+      <div className="z-10 md:py-22 py-28">
         <div className="flex flex-col gap-4">
           <motion.p
             initial={{ opacity: 0, y: -100 }}
