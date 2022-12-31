@@ -12,7 +12,7 @@ const Portfolio = () => {
         <div className="md:w-[60%] w-[40%] h-[1px] bg-borderColor opacity-30"></div>
       </div>
 
-      <div className="mt-4 p-4 w-full flex flex-wrap lg:flex-row flex-col lg:items-start sm:justify-between justify-center items-center lg:gap-32 gap-10">
+      <div className="mt-4 md:p-4 p-0 w-full flex flex-wrap lg:flex-row flex-col lg:items-start sm:justify-between justify-center items-center lg:gap-32 gap-10">
         {projects?.map((item, index) => (
           <>
             <div
