@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="sticky top-0 z-50 lg:block hidden">
+      <div className="top-0 z-50 lg:block hidden">
         <motion.div
           initial={{ opacity: 0, x: 100 }}
           animate={{ opacity: 1, x: 0 }}
